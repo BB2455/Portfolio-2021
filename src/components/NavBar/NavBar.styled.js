@@ -1,5 +1,7 @@
 import styled from "styled-components";
 // import { device } from "../Devices";
+import GatsbyLink from "gatsby-link";
+import theme from "../../themes/theme";
 
 export const Nav = styled.div`
   position: absolute;
@@ -14,7 +16,13 @@ export const NavLinks = styled.div`
   display: flex;
 `;
 
-export const NavLink = styled.h2`
+export const NavLink = styled(GatsbyLink)`
   font-size: 1rem;
   margin-left: 2rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: ${theme.mainColor};
+  &:hover {
+    color: #5cdb95;
+  }
 `;

@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import theme from "./themes/theme";
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -8,8 +9,8 @@ const GlobalStyle = createGlobalStyle`
   }
   
   body {
-    background: #121212;
-    color: #FAFAFA;
+    background: ${theme.backgroundColor};
+    color: ${theme.mainColor};
   }
 
 `;

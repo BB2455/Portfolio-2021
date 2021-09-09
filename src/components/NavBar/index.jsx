@@ -7,9 +7,9 @@ const NavBar = () => {
     <Nav>
       <Title>Blair Burke</Title>
       <NavLinks>
-        <NavLink>About</NavLink>
-        <NavLink>Project</NavLink>
-        <NavLink>Contact</NavLink>
+        <NavLink to="#about">About</NavLink>
+        <NavLink to="#projects">Project</NavLink>
+        <NavLink to="#contact">Contact</NavLink>
       </NavLinks>
     </Nav>
   );

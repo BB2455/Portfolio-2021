@@ -1,5 +1,6 @@
 import * as React from "react";
-import { Landing, GlobalStyle } from "../components";
+import GlobalStyle from "../global.styled";
+import { Landing } from "../components";
 import { Container } from "../components/shared";
 
 const IndexPage = () => {
