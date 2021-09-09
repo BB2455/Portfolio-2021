@@ -1,4 +1,5 @@
 import styled from "styled-components";
+// import { device } from "../Devices";
 
 export const Nav = styled.div`
   position: absolute;

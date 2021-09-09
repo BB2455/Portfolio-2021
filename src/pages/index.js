@@ -1,10 +1,10 @@
 import * as React from "react";
-import { Landing } from "../components";
-import { GlobalStyle } from "../components/shared";
+import { Landing, GlobalStyle } from "../components";
+import { Container } from "../components/shared";
 
 const IndexPage = () => {
   return (
-    <>
+    <Container>
       <GlobalStyle />
 
       <Landing />
@@ -12,7 +12,7 @@ const IndexPage = () => {
       {/* <Skills /> */}
       {/* <Contact /> */}
       {/* <Footer /> */}
-    </>
+    </Container>
   );
 };
 

@@ -1,5 +1,5 @@
 import * as React from "react";
-import Title from "../shared/Title.styled.js";
+import { Title } from "../shared";
 import { Nav, NavLinks, NavLink } from "./NavBar.styled";
 
 const NavBar = () => {

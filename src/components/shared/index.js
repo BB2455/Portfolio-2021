@@ -1,2 +1,2 @@
 export * from "./Title.styled";
-export { default as GlobalStyle } from "./global.styled";
+export * from "./Container.styled";

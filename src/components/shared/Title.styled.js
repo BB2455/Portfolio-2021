@@ -1,8 +1,7 @@
 import styled from "styled-components";
+// import { device } from "../Devices";
 
-const Title = styled.h1`
+export const Title = styled.h1`
   font-size: 2rem;
   padding: 2rem 0;
 `;
-
-export default Title;
