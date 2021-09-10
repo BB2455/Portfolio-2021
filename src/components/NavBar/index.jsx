@@ -5,11 +5,11 @@ import { Nav, NavLinks, NavLink } from "./NavBar.styled";
 const NavBar = () => {
   return (
     <Nav>
-      <Title>Blair Burke</Title>
+      <Title to="/">Blair Burke</Title>
       <NavLinks>
-        <NavLink to="#about">About</NavLink>
-        <NavLink to="#projects">Project</NavLink>
-        <NavLink to="#contact">Contact</NavLink>
+        <NavLink to="/#about">About Me</NavLink>
+        <NavLink to="/#projects">Projects</NavLink>
+        <NavLink to="/#contact">Contact Me</NavLink>
       </NavLinks>
     </Nav>
   );
