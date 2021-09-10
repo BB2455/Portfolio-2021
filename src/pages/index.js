@@ -12,15 +12,17 @@ import { Container } from "../components/shared";
 
 const IndexPage = () => {
   return (
-    <Container>
-      <GlobalStyle />
-      <Landing />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+    <>
+      <Container>
+        <GlobalStyle />
+        <Landing />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </Container>
       <Footer />
-    </Container>
+    </>
   );
 };
 

@@ -1,10 +1,9 @@
 import * as React from "react";
-import { AboutWrapper, P } from "./About.styled";
-import { Title } from "../shared";
+import { Title, P, Section } from "../shared";
 
 const About = () => {
   return (
-    <AboutWrapper id="about">
+    <Section id="about">
       <Title>About Me</Title>
       <P>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima optio
@@ -19,7 +18,7 @@ const About = () => {
         minus numquam recusandae reprehenderit accusantium, sunt iure dicta esse
         ad qui similique modi soluta. Adipisci, magni!
       </P>
-    </AboutWrapper>
+    </Section>
   );
 };
 

@@ -4,6 +4,7 @@ import { device } from "../Devices";
 export const Container = styled.div`
   max-width: 95%;
   margin: 0 auto;
+  display: ${(props) => props.display};
   @media ${device.sm} {
     max-width: 475px;
     maargin: 0;
@@ -18,3 +19,7 @@ export const Container = styled.div`
     max-width: 1200px;
   }
 `;
+
+Container.defaultProps = {
+  display: "block",
+};

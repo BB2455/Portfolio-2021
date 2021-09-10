@@ -35,7 +35,7 @@ const Landing = () => {
           <FontAwesomeIcon icon={faTwitter} size="2x" />
         </IconLink>
       </div>
-      <LandingText>Scroll Down</LandingText>
+      <LandingText>&darr; Scroll Down &darr; </LandingText>
     </LandingWrapper>
   );
 };

@@ -3,5 +3,9 @@ import styled from "styled-components";
 
 export const Title = styled.h1`
   font-size: 2rem;
-  padding: 2rem 0;
+  padding: ${(props) => props.padding};
 `;
+
+Title.defaultProps = {
+  padding: "2rem 0",
+};
