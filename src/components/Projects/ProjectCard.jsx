@@ -19,7 +19,7 @@ const ProjectCard = ({ title, description, codeurl, liveurl, techUsed }) => {
       <ProjectTitle>Technologies Used</ProjectTitle>
       <LinkWrapper>
         {techUsed.map((tech) => (
-          <TechTitle>{tech}</TechTitle>
+          <TechTitle key={tech}>{tech}</TechTitle>
         ))}
       </LinkWrapper>
       <LinkWrapper>

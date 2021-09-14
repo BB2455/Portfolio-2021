@@ -14,7 +14,7 @@ import {
   faLinkedin,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import { data } from "../../data/data";
+// import { data } from "../../data/data";
 
 const Footer = () => {
   return (
@@ -35,10 +35,10 @@ const Footer = () => {
             <IconLink href="https://twitter.com/BlairCodes" target="_blank">
               <FontAwesomeIcon icon={faTwitter} />
             </IconLink>
-            <IconLink href={`mailto:${data.email}`}>
+            <IconLink href={`mailto:email@email.com`}>
               <FontAwesomeIcon icon={faEnvelope} />
             </IconLink>
-            <IconLink href={`tel:${data.phone}`}>
+            <IconLink href={`tel:1123123124`}>
               <FontAwesomeIcon icon={faPhone} />
             </IconLink>
           </div>

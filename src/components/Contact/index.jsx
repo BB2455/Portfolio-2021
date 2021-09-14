@@ -4,7 +4,7 @@ import { ContactContainer, ContactCard, ContactLink } from "./Contact.styled";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import { data } from "../../data/data";
+// import { data } from "../../data/data";
 
 const Contact = () => {
   return (
@@ -14,12 +14,12 @@ const Contact = () => {
       <ContactContainer>
         <ContactCard>
           <FontAwesomeIcon icon={faPhone} />
-          <ContactLink href={`tel:${data.phone}`}>{data.phoneText}</ContactLink>
+          <ContactLink href={`tel:1123123124`}>1-123-123-1234</ContactLink>
         </ContactCard>
         <ContactCard>
           <FontAwesomeIcon icon={faEnvelope} />
-          <ContactLink href={`mailto:${data.email}`}>
-            {data.emailText}
+          <ContactLink href={`mailto:email@email.com`}>
+            Email@Email.com
           </ContactLink>
         </ContactCard>
       </ContactContainer>
