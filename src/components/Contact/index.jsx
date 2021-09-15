@@ -1,6 +1,11 @@
 import * as React from "react";
-import { Title, P, Section } from "../shared";
-import { ContactContainer, ContactCard, ContactLink } from "./Contact.styled";
+import { Title, Section } from "../shared";
+import {
+  ContactContainer,
+  ContactCard,
+  ContactLink,
+  ContactText,
+} from "./Contact.styled";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
@@ -10,7 +15,7 @@ const Contact = () => {
   return (
     <Section id="contact">
       <Title padding="0 0 1rem 0">Contact</Title>
-      <P>Want To Get In Contact With Me?</P>
+      <ContactText>Want To Get In Contact With Me?</ContactText>
       <ContactContainer>
         <ContactCard>
           <FontAwesomeIcon icon={faPhone} />
