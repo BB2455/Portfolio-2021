@@ -20,11 +20,13 @@ export const NavLinks = styled.div`
   display: flex;
 `;
 
-export const NavLink = styled.h2`
+export const NavLink = styled.button`
   font-size: 1.25rem;
   margin-left: 2.25rem;
   text-decoration: none;
   font-weight: 700;
+  background: none;
+  border: none;
   color: ${theme.mainColor};
   &:hover {
     color: #5cdb95;

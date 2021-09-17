@@ -19,16 +19,33 @@ const ProjectCard = ({ title, description, codeurl, liveurl, techUsed }) => {
       <ProjectTitle>Technologies Used</ProjectTitle>
       <LinkWrapper>
         {techUsed.map((tech) => (
-          <TechTitle key={tech}>{tech}</TechTitle>
+          <TechTitle key={tech} title={tech}>
+            {tech}
+          </TechTitle>
         ))}
       </LinkWrapper>
       <LinkWrapper>
-        <LinkButton href={codeurl} target="_blank">
-          View Code
-        </LinkButton>
-        <LinkButton href={liveurl} target="_blank">
-          Live Site
-        </LinkButton>
+        {codeurl === "" ? null : (
+          <LinkButton
+            href={codeurl}
+            target="_blank"
+            title="Link to the projects code."
+          >
+            View Code
+          </LinkButton>
+        )}
+        {liveurl === "" ? null : (
+          <LinkButton
+            href={liveurl}
+            target="_blank"
+            title="Link to the live site of this project."
+          >
+            Live Site
+          </LinkButton>
+        )}
+        {(codeurl === "") & (liveurl === "") ? (
+          <P margin="0 0 0 1rem">Links Coming Soon.</P>
+        ) : null}
       </LinkWrapper>
     </Card>
   );

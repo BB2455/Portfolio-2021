@@ -23,16 +23,16 @@ const Landing = () => {
       <LandingTitle>I'm a Web Developer</LandingTitle>
       <div>
         <IconLink href="https://github.com/BB2455" target="_blank">
-          <FontAwesomeIcon icon={faGithub} />
+          <FontAwesomeIcon icon={faGithub} title="Github" />
         </IconLink>
         <IconLink
           href="https://www.linkedin.com/in/blair-burke-8b285a203/"
           target="_blank"
         >
-          <FontAwesomeIcon icon={faLinkedin} />
+          <FontAwesomeIcon icon={faLinkedin} title="Linkedin" />
         </IconLink>
         <IconLink href="https://twitter.com/BlairCodes" target="_blank">
-          <FontAwesomeIcon icon={faTwitter} />
+          <FontAwesomeIcon icon={faTwitter} title="Twitter" />
         </IconLink>
       </div>
       <LandingText>&darr; Scroll Down &darr; </LandingText>

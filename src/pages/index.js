@@ -9,10 +9,14 @@ import {
   Footer,
 } from "../components";
 import { Container } from "../components/shared";
+import { Helmet } from "react-helmet";
 
 const IndexPage = () => {
   return (
     <>
+      <Helmet>
+        <title>Blair's Porfolio</title>
+      </Helmet>
       <Container>
         <GlobalStyle />
         <Landing />
