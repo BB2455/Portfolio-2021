@@ -1,25 +1,4 @@
 {
-  "skills": {
-    "featuredSkills": [
-      { "skillName": "Lua", "skillLogo": null },
-      { "skillName": "Python", "skillLogo": null },
-      { "skillName": "Javascript", "skillLogo": null },
-      { "skillName": "React", "skillLogo": null }
-    ],
-    "otherSkills": [
-      "HTML",
-      "CSS",
-      "Sass",
-      "Gatsby",
-      "GraphQL",
-      "Django",
-      "Flask",
-      "Git",
-      "Blender",
-      "Figma",
-      "Paint.net"
-    ]
-  },
   "projects": [
     {
       "title": "Portfolio",
@@ -49,5 +28,10 @@
   "email": "blairburke@outlook.com",
   "emailText": "BlairBurke@Outlook.com",
   "phone": "17097253323",
-  "phoneText": "1-709-725-3323"
+  "phoneText": "1-709-725-3323",
+  "skills": {
+    "languages": ["HTML", "CSS", "Javascript", "Python", "Lua"],
+    "frameworks": ["React", "Sass", "GraphQL", "Gatsby"],
+    "otherSkills": ["Git", "VS Code", "Blender", "Figma", "Paint.net"]
+  }
 }

@@ -42,8 +42,6 @@ export const TechTitle = styled.h3`
     font-size: 0.75rem;
     margin: 0 0.25rem 1rem 0.25rem;
   }
-  @media ${device.sm} {
-  }
 `;
 
 export const ImageContainer = styled.div`
@@ -72,5 +70,6 @@ export const ProjectTitle = styled.h2`
   margin-bottom: 1rem;
   @media ${device.sm} {
     text-align: center;
+    font-size: 0.75rem;
   }
 `;

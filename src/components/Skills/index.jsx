@@ -1,11 +1,66 @@
 import * as React from "react";
-import { SkillsWrapper } from "./Skills.styled";
+import {
+  SkillsWrapper,
+  SkillsContainer,
+  SkillTitle,
+  SkillName,
+  TypeContainer,
+} from "./Skills.styled";
 import { Title } from "../shared";
+import { useStaticQuery, graphql } from "gatsby";
 
 const Skills = () => {
+  let data = useStaticQuery(graphql`
+    {
+      allDataJson {
+        edges {
+          node {
+            skills {
+              languages
+              frameworks
+              otherSkills
+            }
+          }
+        }
+      }
+    }
+  `);
+  console.log(data);
   return (
     <SkillsWrapper>
       <Title>Skills</Title>
+      <SkillsContainer>
+        <div>
+          <SkillTitle>Languages</SkillTitle>
+          <TypeContainer>
+            {data.allDataJson.edges[0].node.skills.languages.map((skill) => (
+              <SkillName title={skill} key={skill}>
+                {skill}
+              </SkillName>
+            ))}
+          </TypeContainer>
+        </div>
+        <div>
+          <SkillTitle>Frameworks</SkillTitle>
+          <TypeContainer>
+            {data.allDataJson.edges[0].node.skills.frameworks.map((skill) => (
+              <SkillName title={skill} key={skill}>
+                {skill}
+              </SkillName>
+            ))}
+          </TypeContainer>
+        </div>
+        <div>
+          <SkillTitle>Other Skills</SkillTitle>
+          <TypeContainer>
+            {data.allDataJson.edges[0].node.skills.otherSkills.map((skill) => (
+              <SkillName title={skill} key={skill}>
+                {skill}
+              </SkillName>
+            ))}
+          </TypeContainer>
+        </div>
+      </SkillsContainer>
     </SkillsWrapper>
   );
 };
