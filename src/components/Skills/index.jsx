@@ -5,6 +5,7 @@ import {
   SkillTitle,
   SkillName,
   TypeContainer,
+  Container
 } from "./Skills.styled";
 import { Title } from "../shared";
 import { useStaticQuery, graphql } from "gatsby";
@@ -30,7 +31,7 @@ const Skills = () => {
     <SkillsWrapper>
       <Title>Skills</Title>
       <SkillsContainer>
-        <div>
+        <Container>
           <SkillTitle>Languages</SkillTitle>
           <TypeContainer>
             {data.allDataJson.edges[0].node.skills.languages.map((skill) => (
@@ -39,8 +40,8 @@ const Skills = () => {
               </SkillName>
             ))}
           </TypeContainer>
-        </div>
-        <div>
+        </Container>
+        <Container>
           <SkillTitle>Frameworks</SkillTitle>
           <TypeContainer>
             {data.allDataJson.edges[0].node.skills.frameworks.map((skill) => (
@@ -49,8 +50,8 @@ const Skills = () => {
               </SkillName>
             ))}
           </TypeContainer>
-        </div>
-        <div>
+        </Container>
+        <Container>
           <SkillTitle>Other Skills</SkillTitle>
           <TypeContainer>
             {data.allDataJson.edges[0].node.skills.otherSkills.map((skill) => (
@@ -59,7 +60,7 @@ const Skills = () => {
               </SkillName>
             ))}
           </TypeContainer>
-        </div>
+        </Container>
       </SkillsContainer>
     </SkillsWrapper>
   );

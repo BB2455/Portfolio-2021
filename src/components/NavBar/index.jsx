@@ -8,9 +8,9 @@ const NavBar = () => {
     <Nav>
       <Title to="/">Blair Burke</Title>
       <NavLinks>
-        <NavLink onClick={() => scrollTo("#about")}>About Me</NavLink>
-        <NavLink onClick={() => scrollTo("#projects")}>Projects</NavLink>
-        <NavLink onClick={() => scrollTo("#contact")}>Contact Me</NavLink>
+        <NavLink onClick={() => scrollTo("#about")} title="About Me">About Me</NavLink>
+        <NavLink onClick={() => scrollTo("#projects")} title="Projects">Projects</NavLink>
+        <NavLink onClick={() => scrollTo("#contact")} title="Contact Me">Contact Me</NavLink>
       </NavLinks>
     </Nav>
   );

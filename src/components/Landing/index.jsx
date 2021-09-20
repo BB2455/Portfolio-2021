@@ -10,7 +10,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faLinkedin,
-  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
 const Landing = () => {
@@ -30,9 +29,6 @@ const Landing = () => {
           target="_blank"
         >
           <FontAwesomeIcon icon={faLinkedin} title="Linkedin" />
-        </IconLink>
-        <IconLink href="https://twitter.com/BlairCodes" target="_blank">
-          <FontAwesomeIcon icon={faTwitter} title="Twitter" />
         </IconLink>
       </div>
       <LandingText>&darr; Scroll Down &darr; </LandingText>

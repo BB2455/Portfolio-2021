@@ -29,7 +29,7 @@ const Contact = () => {
   return (
     <Section id="contact">
       <Title padding="0 0 1rem 0">Contact</Title>
-      <ContactText>Want To Get In Contact With Me?</ContactText>
+      <ContactText>If you have an opportunity for me, feel free to contact me at any time.</ContactText>
       <ContactContainer>
         <ContactCard>
           <FontAwesomeIcon icon={faPhone} title="Phone" />

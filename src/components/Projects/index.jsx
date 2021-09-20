@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Title } from "../shared";
-import { ProjectWrapper, ImageContainer } from "./Projects.styled";
+import { ProjectWrapper, ImageContainer, MoreLink } from "./Projects.styled";
 import ProjectCard from "./ProjectCard";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { useStaticQuery, graphql } from "gatsby";
@@ -54,6 +54,15 @@ const Projects = () => {
           </ProjectWrapper>
         );
       })}
+
+      <div style={{ width: "100%", display: "flex", justifyContent: "center" }}>
+        <MoreLink
+          href="https://github.com/BB2455?tab=repositories"
+          target="_blank"
+        >
+          More Projects
+        </MoreLink>
+      </div>
     </>
   );
 };

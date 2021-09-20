@@ -13,8 +13,7 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
-  faLinkedin,
-  faTwitter,
+  faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 import { graphql, useStaticQuery } from "gatsby";
 
@@ -48,11 +47,6 @@ const Footer = () => {
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faLinkedin} title="Linkedin" />
-              </IconLink>
-            </IconContainer>
-            <IconContainer>
-              <IconLink href="https://twitter.com/BlairCodes" target="_blank">
-                <FontAwesomeIcon icon={faTwitter} title="Twitter" />
               </IconLink>
             </IconContainer>
             <IconContainer>

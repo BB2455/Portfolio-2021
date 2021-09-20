@@ -21,19 +21,18 @@ export const TypeContainer = styled.div`
   padding: 2rem;
   display: flex;
   flex-wrap: wrap;
-  @media ${device.sm} {
-    justify-content: center;
-  }
+  justify-content: center;
 `;
 
 export const SkillName = styled(P)`
   background: #191919;
   padding: 0.5rem 1rem;
-  margin: 0 0.5rem 2rem 0.5rem;
+  margin: 0 0.5rem 1rem 0.5rem;
   border-radius: 10px;
   color: ${theme.secondaryColor};
   @media ${device.sm} {
-    margin: 0 0.25rem 1rem 0.25rem;
+    margin: 0 0.25rem 0.75rem 0.25rem;
+    padding: 0.25rem 0.5rem;
   }
 `;
 
@@ -50,3 +49,7 @@ export const SkillTitle = styled.h1`
     font-size: 0.75rem;
   }
 `;
+
+export const Container = styled.div`
+ max-width: 600px;
+`
