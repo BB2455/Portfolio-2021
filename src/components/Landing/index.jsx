@@ -7,12 +7,22 @@ import {
   IconLink,
 } from "./Landing.styled";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { useStaticQuery, graphql } from "gatsby";
 
 const Landing = () => {
+  let data = useStaticQuery(graphql`
+    {
+      allDataJson {
+        edges {
+          node {
+            githubUrl
+            linkedinUrl
+          }
+        }
+      }
+    }
+  `);
   return (
     <LandingWrapper>
       <NavBar />
@@ -21,11 +31,14 @@ const Landing = () => {
       </LandingTitle>
       <LandingTitle>I'm a Web Developer</LandingTitle>
       <div>
-        <IconLink href="https://github.com/BB2455" target="_blank">
+        <IconLink
+          href={data.allDataJson.edges[0].node.githubUrl}
+          target="_blank"
+        >
           <FontAwesomeIcon icon={faGithub} title="Github" />
         </IconLink>
         <IconLink
-          href="https://www.linkedin.com/in/blair-burke-8b285a203/"
+          href={data.allDataJson.edges[0].node.linkedinUrl}
           target="_blank"
         >
           <FontAwesomeIcon icon={faLinkedin} title="Linkedin" />

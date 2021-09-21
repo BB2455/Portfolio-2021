@@ -7,7 +7,6 @@ import {
   ContactText,
 } from "./Contact.styled";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { useStaticQuery, graphql } from "gatsby";
 
@@ -17,10 +16,8 @@ const Contact = () => {
       allDataJson {
         edges {
           node {
-            phone
             email
             emailText
-            phoneText
           }
         }
       }
@@ -29,17 +26,10 @@ const Contact = () => {
   return (
     <Section id="contact">
       <Title padding="0 0 1rem 0">Contact</Title>
-      <ContactText>If you have an opportunity for me, feel free to contact me at any time.</ContactText>
+      <ContactText>
+        If you have an opportunity for me, feel free to contact me at any time.
+      </ContactText>
       <ContactContainer>
-        <ContactCard>
-          <FontAwesomeIcon icon={faPhone} title="Phone" />
-          <ContactLink
-            href={`tel:${data.allDataJson.edges[0].node.phone}`}
-            title="Give Me A Call"
-          >
-            {data.allDataJson.edges[0].node.phoneText}
-          </ContactLink>
-        </ContactCard>
         <ContactCard>
           <FontAwesomeIcon icon={faEnvelope} title="Email" />
           <ContactLink

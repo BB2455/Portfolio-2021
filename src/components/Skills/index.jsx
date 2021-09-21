@@ -5,7 +5,7 @@ import {
   SkillTitle,
   SkillName,
   TypeContainer,
-  Container
+  Container,
 } from "./Skills.styled";
 import { Title } from "../shared";
 import { useStaticQuery, graphql } from "gatsby";
@@ -26,7 +26,6 @@ const Skills = () => {
       }
     }
   `);
-  console.log(data);
   return (
     <SkillsWrapper>
       <Title>Skills</Title>

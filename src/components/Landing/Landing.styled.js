@@ -27,6 +27,9 @@ export const LandingTitle = styled.h1`
   @media ${device.sm} {
     font-size: 1.75rem;
   }
+  @media ${device.xsm} {
+    font-size: 1.5rem;
+  }
 `;
 
 const scrollAnimation = keyframes`

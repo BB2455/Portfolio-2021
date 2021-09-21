@@ -2,7 +2,7 @@
   "projects": [
     {
       "title": "Portfolio",
-      "description": "The website you're currently on. This project was built using Gatsby 3 and was my first time utilizing gatsby as I wanted to challenge myself using a framework I wasn't familiar with to create my portfolio. Some challenges I faced were data manipulation so I could dynamically load images when developing this project section. In the beginning, I didn't utilize GraphQL, which resulted in images not being able to load. To solve this, I went into a deep dive into the Gatsby documentation going into their tutorials, resulting in me getting a deeper understanding of how Gatsby worked and learning GraphQL in the process.",
+      "description": "The website you're currently on. This project was built using Gatsby and was my first time utilizing gatsby as I wanted to challenge myself using a framework I wasn't familiar with to create my portfolio. Some challenges I faced were data manipulation so I could dynamically load images when developing this project section. In the beginning, I didn't utilize GraphQL, which resulted in images not being able to load. To solve this, I went into a deep dive into the Gatsby documentation going into their tutorials, resulting in me getting a deeper understanding of how Gatsby worked and learning GraphQL in the process.",
       "codeurl": "https://github.com/BB2455/Portfolio-2021",
       "liveurl": "",
       "techUsed": ["Gatsby", "React", "GraphQL", "Styled Components"],
@@ -17,14 +17,22 @@
       "image": "../images/project-2.png"
     }
   ],
-  "email": "blairburke@outlook.com",
-  "emailText": "BlairBurke@Outlook.com",
-  "phone": "17097253323",
-  "phoneText": "1-709-725-3323",
+  "email": "blairbcodes@gmail.com",
+  "emailText": "BlairBCodes@Gmail.com",
+  "linkedinUrl": "https://www.linkedin.com/in/blair-burke-8b285a203/",
+  "githubUrl": "https://github.com/BB2455",
   "skills": {
-    "languages": ["HTML", "CSS", "Javascript", "Python", "Lua"],
+    "languages": ["HTML", "CSS", "JavaScript", "Python", "Lua"],
     "frameworks": ["React", "Sass", "Gatsby", "jQuery", "GraphQL"],
-    "otherSkills": ["Git", "VS Code", "Bootstrap", "Blender", "Figma", "Paint.net", "Roblox"]
+    "otherSkills": [
+      "Git",
+      "VS Code",
+      "Bootstrap",
+      "Blender",
+      "Figma",
+      "Paint.net",
+      "Roblox"
+    ]
   },
-  "aboutMeText": "Hi, I'm Blair! I've been coding since I was 13, starting with Lua on the Roblox game engine, creating games for my friends, others, and myself. Over the years, I've learned a lot from developing on Roblox from creating models and meshes from Blender, project organization on Trello, Discord, and other tools to facilitate project organization within a team, creating logos, images, concept art and more in Paint.net. I am a self-taught developer and have learned by doing and through other learning mediums such as youtube, official documentation and developer forums. Recently I've been slowly transitioning from game to web development, looking for opportunities to perpetually get out of my comfort zone and expand my knowledge. Currently, I've been working with React and GraphQL in Gatsby, but I'm always excited to learn new technologies!"
+  "aboutMeText": "Hi, I'm Blair! I've been coding since I was 13, starting with Lua on the Roblox game engine, creating games for my friends, others, and myself. Over the years, I've learned a lot from developing on Roblox from creating models and meshes in Blender, project organization on Trello, Discord, and other tools to facilitate project organization within a team, creating logos, images, concept art and more in Paint.net. I am a self-taught developer and have learned by doing and through other learning mediums such as youtube, official documentation and developer forums. Recently I've been slowly transitioning from game to web development, looking for opportunities to perpetually get out of my comfort zone and expand my knowledge. Currently, I've been working with React and GraphQL in Gatsby, but I'm always excited to learn new technologies!"
 }

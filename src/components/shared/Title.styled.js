@@ -13,9 +13,6 @@ export const Title = styled.h1`
   @media ${device.sm} {
     text-align: center;
   }
-  @media ${device.xsm} {
-    font-size: 1rem;
-  }
 `;
 
 Title.defaultProps = {
