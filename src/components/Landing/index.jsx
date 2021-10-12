@@ -27,7 +27,10 @@ const Landing = () => {
     <LandingWrapper>
       <NavBar />
       <LandingTitle>
-        Hi, my name is <span style={{ color: "#5CDB95" }}>Blair Burke</span>
+        Hi, my name is{" "}
+        <span style={{ color: "#5CDB95", whiteSpace: "nowrap" }}>
+          Blair Burke
+        </span>
       </LandingTitle>
       <LandingTitle>I'm a Web Developer</LandingTitle>
       <div>

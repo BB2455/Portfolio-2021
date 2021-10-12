@@ -34,13 +34,13 @@ export const TechTitle = styled.h3`
   font-size: 1rem;
   background: #191919;
   padding: 0.5rem;
-  margin: 0 0.5rem 0 0.5rem;
+  margin: 0 0.5rem 0.5rem 0.5rem;
   border-radius: 10px;
   font-weight: 400;
   color: ${theme.secondaryColor};
   @media ${device.md} {
     font-size: 0.75rem;
-    margin: 0 0.25rem 0 0.25rem;
+    margin: 0 0.25rem 0.5rem 0.25rem;
   }
   @media ${device.sm} {
     padding: 0.25rem 0.5rem;

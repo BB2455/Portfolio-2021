@@ -19,7 +19,7 @@ const Projects = () => {
               title
               image {
                 childImageSharp {
-                  gatsbyImageData(width: 400)
+                  gatsbyImageData(width: 500)
                 }
               }
             }
