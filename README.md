@@ -1,54 +1,42 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# Blair's 2021 Portfolio
 
-## 🚀 Quick start
+My first portfolio to showcase my projects and skills, along with a about me and contact section with links to my socials.
 
-1.  **Create a Gatsby site.**
+## Links & Contact
+- Live Site: [BlairB.Dev](https://blairb.dev)
+- LinkedIn: [Blair B](https://www.linkedin.com/in/blair-burke)
+- Email: blairbcodes@gmail.com
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+## Built with
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- [Gatsby](https://www.gatsbyjs.com/) - JS Framework
+- [GraphQL](https://graphql.org/) - Query Language
+- [React](https://reactjs.org/) - JS library
+- [Styled Components](https://styled-components.com/) - For styles
 
-2.  **Start developing.**
+## Challenges
 
-    Navigate into your new site’s directory and start it up.
+- A challenge I faced when working on my portfolio was getting images to load when I looped through my projects in the data.json getting the path for the images.
+To solve this I learnt GraphQL and started using it throughout my portfolio.
+- Design. It took a while before I found the design I liked enough to use. I originally designed my porfolio in Figma and then made it in Gatsby, however the design from Figma to my actualy portfolio changed as I started working in Gatbsy as I wanted to change the layout of how things looked.
+- Figma Link: [Original Design](https://www.figma.com/file/vKPw0PVnnA7YFeQwzduqST/Portfolio-2021?node-id=0%3A1)
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+## What I learnt
 
-3.  **Open the code and start customizing!**
+- [Gatsby](https://www.gatsbyjs.com/) - I learnt how to use Gatbsy and how to create a static site.
+- [GraphQL](https://graphql.org/) - I learnt how to manipulate data through GraphQL.
+- [Styled Components](https://styled-components.com/) - I learnt how to organize my components and styles.
+- [Netlify](https://www.netlify.com/) - Hosting Service I used for my portfolio.
 
-    Your site is now running at http://localhost:8000!
+## Continued development
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+As this was my first time using Gatsby I learnt a lot, and made lots of mistakes. In the future I'll be able to structure my projects a lot more clearly and more efficiently as I won't have to struggle as much when working with data.
 
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+### Things To Learn:
+- [Gatsby-Image-Plugin](https://www.gatsbyjs.com/plugins/gatsby-plugin-image/) - I'd like to laern more about how to create better images.
+- Best Practices in Gatsby and GraphQL.
+- Reinforce HTML and CSS knowledge and Responsive Design.
+- More About Accessibility
